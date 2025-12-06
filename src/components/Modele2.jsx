@@ -35,7 +35,7 @@ const Modele2 = () => {
             </div>
 
             {/* --- Header / Navigation --- */}
-            <nav className="bg-white border-b border-stone-200 sticky top-0 z-50">
+            <nav className="bg-white border-b border-stone-200 sticky top-14 z-40">
                 <div className="container mx-auto px-8 py-4 flex justify-between items-center">
                     {/* Logo */}
                     <div className="flex items-center gap-2">

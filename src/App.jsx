@@ -29,7 +29,7 @@ function App() {
   );
 
   if (currentModel === '2') return (
-    <div className="relative pt-14 min-h-screen">
+    <div className="relative pt-14 min-h-screen"> {/* pt-14 est important ici */}
       <Banner setModel={setCurrentModel} title="Modèle 2: Moderne" />
       <Modele2 />
     </div>

@@ -43,7 +43,7 @@ const Modele1 = () => {
             <div className="flex flex-col lg:flex-row min-h-screen">
 
                 {/* --- Sidebar Navigation (Desktop) / Topbar (Mobile) --- */}
-                <aside className="lg:w-64 lg:h-screen lg:fixed lg:left-0 lg:top-0 border-b lg:border-b-0 lg:border-r border-gray-200 bg-white z-50 flex flex-col justify-between p-6 lg:p-10">
+                <aside className="lg:w-64 lg:fixed lg:left-0 lg:top-14 lg:h-[calc(100vh-3.5rem)] border-b lg:border-b-0 lg:border-r border-gray-200 bg-white z-40 flex flex-col justify-between p-6 lg:p-10">
                     <div className="flex justify-between items-center lg:block">
                         <div className="mb-0 lg:mb-12">
                             <h1 className="text-2xl font-bold tracking-tighter uppercase">Chenal<br /><span className="text-gray-400">Avocats.</span></h1>

@@ -47,7 +47,7 @@ const Modele3 = () => {
         <div className="font-sans text-slate-800 bg-white">
 
             {/* --- Navigation --- */}
-            <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'}`}>
+            <nav className={`fixed w-full z-40 top-14 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'}`}>
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     <div className={`font-serif text-2xl font-bold tracking-wide ${isScrolled ? 'text-slate-900' : 'text-slate-900 lg:text-white'}`}>
                         CHENAL<span className="text-amber-600">.</span>
