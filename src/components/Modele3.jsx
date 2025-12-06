@@ -323,11 +323,18 @@ const Modele3 = () => {
                                 </div>
 
                                 {/* Map Simulation */}
-                                <div className="mt-8 bg-slate-200 h-64 w-full rounded-sm flex items-center justify-center text-slate-500 border border-slate-300">
-                                    <div className="text-center">
-                                        <MapPin size={32} className="mx-auto mb-2 text-slate-400" />
-                                        <span>Carte Google Maps Interactive</span>
-                                    </div>
+                                {/* Map Real Embed */}
+                                <div className="mt-8 h-80 w-full rounded-sm overflow-hidden shadow-lg border border-slate-200 grayscale hover:grayscale-0 transition-all duration-700">
+                                    <iframe
+                                        width="100%"
+                                        height="100%"
+                                        title="map"
+                                        frameBorder="0"
+                                        scrolling="no"
+                                        marginHeight="0"
+                                        marginWidth="0"
+                                        src="https://maps.google.com/maps?q=12+Avenue+de+la+R%C3%A9publique,+75011+Paris&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>
